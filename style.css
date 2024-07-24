@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #867676; 
+    
+  }
+  
+  h1 {
+    background-color: #341515;
+    color: #f4efef;
+    height: 5rem;
+    line-height: 5rem;
+    
+  }
+  
+  .option {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .option:hover {
+    cursor: pointer;
+    background-color: #b9bfc6;
+  }
+  
+  img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+  }
+  
+  .Points-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+  }
+  
+  .user-point{
+    font-size: 3rem;
+  }
+  .computer-point{
+    font-size: 3rem;
+  }
+  
+
+  .Message-Display {
+    margin-top: 5rem;
+  }
+  
+  #msg {
+    background-color: #4b2222;
+    color: #f4efef;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
